@@ -19,7 +19,7 @@ class App extends Component {
     CALCULATE AVERAGE PRICE OF DIAMONDS
   ======================================== */
   get average() {
-    if (!this.diamonds || this.diamonds.length === 0) return 0;
+    if (this.diamonds.length === 0) return 0;
 
     let sum = 0;
     this.diamonds.forEach(diamond => {
@@ -33,7 +33,7 @@ class App extends Component {
     FIND THE MINIMUM PRICE OF DIAMONDS
   ======================================== */
   get minPrice() {
-    if (!this.diamonds || this.diamonds.length === 0) return 0;
+    if (this.diamonds.length === 0) return 0;
     return (this.diamonds.sort((a, b) => a.price - b.price))[0].price
   }
 
