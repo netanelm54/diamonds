@@ -1,0 +1,14 @@
+.diamonds{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.statistics{
+    display: flex;
+    justify-content: space-between;
+}
+
+.line{
+    border-right: 1px solid #c0c0c0;
+}

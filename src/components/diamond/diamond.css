@@ -1,0 +1,26 @@
+.diamond{
+    margin: 8px;
+    padding: 4px;
+    /* border: 1px solid gray; */
+    border-radius: 4px;
+    width: 200px;
+    box-shadow: 2px 2px 5px #333333;
+    transition: background-color 200ms;
+}
+
+.diamond:hover{
+    background-color: #eeeeee;
+}
+
+p{
+    margin: 4px 0 !important;
+}
+
+.label{
+    font-weight: bold;
+    color: #d21145;
+}
+.value{
+    color: #707070;
+    font-weight: bold;
+}

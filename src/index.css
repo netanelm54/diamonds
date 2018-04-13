@@ -1,0 +1,11 @@
+body {
+  margin: 24px;
+  padding: 0;
+  font: 14px "Century Gothic", Futura, sans-serif;
+}
+
+
+hr{
+  border: none;
+  border-top: 1px solid #c0c0c0;
+}
