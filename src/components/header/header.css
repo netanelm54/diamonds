@@ -1,3 +1,8 @@
 .header{
     color: #d21145;
+    margin-bottom: 8px;
+}
+.second {
+    margin-top: 0;
+    color:#707070;
 }

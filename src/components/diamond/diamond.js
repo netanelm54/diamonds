@@ -27,7 +27,7 @@ class Diamond extends Component {
                 </p>
                 <p>
                     <span className="label"> Price: </span>
-                    <span className="value"> {this.props.price}$ </span> 
+                    <span className="value"> {this.props.price} $ </span> 
                 </p>
             </div>
         );

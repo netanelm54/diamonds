@@ -4,7 +4,17 @@
     box-shadow: 1px 1px 3px lightgray;
     margin: 4px;
     border-radius: 3px;
+    transition: background-color 200ms;
+}
+
+.infoBullet:hover{
+    background-color: lightgray;
 }
 
 .label{ margin-bottom: 4px; }
-.value{ margin-top: 4px; }
+.value{
+    margin-top: 4px;
+    transition: color 200ms;
+}
+
+.infoBullet:hover .value{color: #4169e1}
